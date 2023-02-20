@@ -73,7 +73,6 @@ export class Store {
     this.observers = {};
 
     for(const key in state) {
-      console.log(key)  // message
       Object.defineProperty(this.state, key, {
         // get 함수는 객체 데이터에 지정하는 key 값을 사용할 떄 동작
         get: () => state[key],     // state[message]
