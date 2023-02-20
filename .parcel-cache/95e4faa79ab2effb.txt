@@ -1,4 +1,4 @@
-4326
+4329
 64C:\Users\CIO\project\argen\fc-movie-app\node_modules\cosmiconfig133211810312335267 1
 100C:\Users\CIO\project\argen\fc-movie-app\node_modules\@babel\helper-validator-identifier\package.json133211810310733831 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist\index.d.ts133211810315333160 0
@@ -8,13 +8,6 @@
 43C:\Users\CIO\project\argen\fc-movie-app\img133212770458891187 1
 72C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dist\index.cjs133211810314180873 0
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\graph\test\integration133211810317530248 1
-91C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-tree\lib\syntax\node\IdSelector.js133211810313428948 0
-88C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\package-manager\src\Pnpm.js133211810332710485 0
-79C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\removeDesc.js133211810312891887 0
-89C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\browserVersions.js133211810313995355 0
-87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\workers\test\workerfarm.js133211810318448215 0
-61C:\Users\CIO\project\argen\fc-movie-app\node_modules\domutils133211810311495491 1
-103C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\test\fixtures\config-plugin-not-found133211810337309807 1
 95C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\transformer-image\src\loadSharp.js133211810322852211 0
 93C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\conditional-except.d.ts133211810310763125 0
 91C:\Users\CIO\project\argen\fc-movie-app\node_modules\json-parse-even-better-errors\index.js133211810309029513 0
@@ -26,11 +19,12 @@
 86C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\runtime-react-refresh\src133211810323870339 1
 44C:\Users\CIO\project\argen\fc-movie-app\.env133213535409178182 0
 103C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\utils\test\replaceBundleReferences.test.js133211810332983907 0
+67C:\Users\CIO\project\argen\fc-movie-app\src\components\MovieItem.js133213625721010895 0
 93C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\codeframe\test\codeframe.test.js133211810312970022 0
 50C:\Users\CIO\project\argen\fc-movie-app\.gitignore133213524478081509 0
 100C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133211810312559870 0
 88C:\Users\CIO\project\argen\fc-movie-app\node_modules\htmlparser2\lib\WritableStream.d.ts133211810311495491 0
-44C:\Users\CIO\project\argen\fc-movie-app\dist133213535314648605 1
+44C:\Users\CIO\project\argen\fc-movie-app\dist133213644126256156 1
 93C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\filesystem.js133211810316661169 0
 75C:\Users\CIO\project\argen\fc-movie-app\node_modules\timsort\src\timsort.js133211810310694785 0
 88C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\alt-oc.js133211810311798237 0
@@ -47,7 +41,7 @@
 102C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js133211810314512919 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\cache\lib\types.d.ts133211810318311452 0
 79C:\Users\CIO\project\argen\fc-movie-app\node_modules\msgpackr\dist\node.cjs.map133211810312921175 0
-52C:\Users\CIO\project\argen\fc-movie-app\src\main.css133213518929327676 0
+52C:\Users\CIO\project\argen\fc-movie-app\src\main.css133213643506426911 0
 52C:\Users\CIO\project\argen\fc-movie-app\node_modules133213526664949740 1
 66C:\Users\CIO\project\argen\fc-movie-app\node_modules\yaml\index.js133211810310860756 0
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\KR.js133211810317832968 0
@@ -85,10 +79,13 @@
 62C:\Users\CIO\project\argen\fc-movie-app\node_modules\callsites133211810309937650 1
 103C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\css-overflow-overlay.js133211810315762815 0
 92C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\flow-root.js133211810316709985 0
+91C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\conditional-keys.d.ts133211810310860756 0
+75C:\Users\CIO\project\argen\fc-movie-app\node_modules\yaml\browser\scalar.js133211810312364596 0
+71C:\Users\CIO\project\argen\fc-movie-app\src\components\MovieListMore.js133213642669105776 0
 50C:\Users\CIO\project\argen\fc-movie-app\src\App.js133212783136504546 0
 73C:\Users\CIO\project\argen\fc-movie-app\node_modules\weak-lru-cache\tests133211810310181806 1
 70C:\Users\CIO\project\argen\fc-movie-app\node_modules\nth-check\LICENSE133211810309029513 0
-54C:\Users\CIO\project\argen\fc-movie-app\src\components133213513371980673 1
+54C:\Users\CIO\project\argen\fc-movie-app\src\components133213636225325263 1
 90C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-tree\lib\syntax\pseudo\slotted.js133211810314669137 0
 77C:\Users\CIO\project\argen\fc-movie-app\node_modules\abortcontroller-polyfill133211810311261134 1
 65C:\Users\CIO\project\argen\fc-movie-app\node_modules\browserslist133211810310890042 1
@@ -138,7 +135,7 @@
 59C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer133211810305230260 1
 92C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\autofocus.js133211810312852829 0
 70C:\Users\CIO\project\argen\fc-movie-app\node_modules\@msgpackr-extract133213526664949740 1
-58C:\Users\CIO\project\argen\fc-movie-app\src\store\movie.js133213535314383027 0
+58C:\Users\CIO\project\argen\fc-movie-app\src\store\movie.js133213640836349650 0
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\CF.js133211810314278506 0
 62C:\Users\CIO\project\argen\fc-movie-app\node_modules\commander133211810310704517 1
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\runtime-js\src\helpers133211810324667880 1
@@ -146,7 +143,7 @@
 82C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\removeDoctype.js133211810312970022 0
 59C:\Users\CIO\project\argen\fc-movie-app\node_modules\@babel133211810305786877 1
 76C:\Users\CIO\project\argen\fc-movie-app\node_modules\json5\dist\index.min.js133211810310093897 0
-58C:\Users\CIO\project\argen\fc-movie-app\src\routes\Home.js133213531208803211 0
+58C:\Users\CIO\project\argen\fc-movie-app\src\routes\Home.js133213644335959472 0
 59C:\Users\CIO\project\argen\fc-movie-app\src\routes\index.js133213527860620628 0
 113C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\img-naturalwidth-naturalheight.js133211810317315412 0
 66C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\write.js133211810314991350 0
@@ -155,7 +152,7 @@
 95C:\Users\CIO\project\argen\fc-movie-app\node_modules\.bin\node-gyp-build-optional-packages-test133211810377662884 0
 105C:\Users\CIO\project\argen\fc-movie-app\node_modules\react-refresh\cjs\react-refresh-babel.development.js133211810309761892 0
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\removeUnusedNS.js133211810313458273 0
-58C:\Users\CIO\project\argen\fc-movie-app\src\core\heropy.js133212775925711201 0
+58C:\Users\CIO\project\argen\fc-movie-app\src\core\heropy.js133213614615254580 0
 130C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines133211810338803850 1
 88C:\Users\CIO\project\argen\fc-movie-app\node_modules\dom-serializer\lib\esm\package.json133211810310372560 0
 85C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-gyp-build-optional-packages133211810310294394 1
@@ -165,6 +162,11 @@
 70C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\PATRONS.md133211810313682834 0
 66C:\Users\CIO\project\argen\fc-movie-app\src\components\Headline.js133213495234121784 0
 88C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\fetch.js133211810316622098 0
+101C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\speech-recognition.js133211810319405149 0
+77C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-gyp-build\README.md133211810310509224 0
+67C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\main.js133211810312891887 0
+67C:\Users\CIO\project\argen\fc-movie-app\src\components\MovieList.js133213628732796072 0
+137C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\nested.js133211810313897688 0
 65C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins133211810313702379 1
 108C:\Users\CIO\project\argen\fc-movie-app\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133211810314786304 0
 64C:\Users\CIO\project\argen\fc-movie-app\src\components\Search.js133213533125647179 0
@@ -174,7 +176,6 @@
 98C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\node_modules\dotenv\CHANGELOG.md133213525047686830 0
 72C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\package.json133211810313604715 0
 57C:\Users\CIO\project\argen\fc-movie-app\node_modules\.bin133211810377711762 1
-59C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv133213525048613482 1
 116C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\index.js133211810332564016 0
 71C:\Users\CIO\project\argen\fc-movie-app\node_modules\.package-lock.json133213526665369183 0
 74C:\Users\CIO\project\argen\fc-movie-app\node_modules\resolve-from\index.js133211810309322460 0
@@ -184,10 +185,6 @@
 64C:\Users\CIO\project\argen\fc-movie-app\node_modules\@jridgewell133211810305786877 1
 58C:\Users\CIO\project\argen\fc-movie-app\node_modules\json5133211810311241629 1
 72C:\Users\CIO\project\argen\fc-movie-app\node_modules\yaml\browser\seq.js133211810312579391 0
-77C:\Users\CIO\project\argen\fc-movie-app\node_modules\buffer-from\package.json133211810309537275 0
-72C:\Users\CIO\project\argen\fc-movie-app\node_modules\stable\package.json133211810309019731 0
-66C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv-expand133211810310084145 1
-62C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\dist133211810313839094 1
 74C:\Users\CIO\project\argen\fc-movie-app\node_modules\os-browserify\main.js133213526643238541 0
 82C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\markdown-ansi\LICENSE133211810313692621 0
 73C:\Users\CIO\project\argen\fc-movie-app\node_modules\electron-to-chromium133211810311290413 1
@@ -302,6 +299,18 @@
 96C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\union-to-intersection.d.ts133211810312628220 0
 63C:\Users\CIO\project\argen\fc-movie-app\node_modules\domhandler133211810310411580 1
 91C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\test\ParcelConfig.test.js133211810338100772 0
+91C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-tree\lib\syntax\node\IdSelector.js133211810313428948 0
+88C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\package-manager\src\Pnpm.js133211810332710485 0
+79C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\removeDesc.js133211810312891887 0
+89C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\browserVersions.js133211810313995355 0
+87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\workers\test\workerfarm.js133211810318448215 0
+61C:\Users\CIO\project\argen\fc-movie-app\node_modules\domutils133211810311495491 1
+103C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\test\fixtures\config-plugin-not-found133211810337309807 1
+59C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv133213525048613482 1
+77C:\Users\CIO\project\argen\fc-movie-app\node_modules\buffer-from\package.json133211810309537275 0
+72C:\Users\CIO\project\argen\fc-movie-app\node_modules\stable\package.json133211810309019731 0
+66C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv-expand133211810310084145 1
+62C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\dist133211810313839094 1
 61C:\Users\CIO\project\argen\fc-movie-app\node_modules\entities133211810311739612 1
 87C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\package-json.d.ts133211810312003288 0
 61C:\Users\CIO\project\argen\fc-movie-app\node_modules\error-ex133211810309722836 1
@@ -513,9 +522,6 @@
 102C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\hash\parcel-hash.linux-arm-gnueabihf.node133211810325777255 0
 79C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-addon-api\common.gypi133211810309527520 0
 59C:\Users\CIO\project\argen\fc-movie-app\node_modules\semver133211810310421367 1
-87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\utils\test\urlJoin.test.js133211810333042496 0
-102C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-img-opts.js133211810313204383 0
-87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\watcher\src\unix\legacy.cc133211810312384095 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv-expand\lib\main.js133211810310216463 0
 66C:\Users\CIO\project\argen\fc-movie-app\node_modules\utility-types133211810311300180 1
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\cache\lib\LMDBCache.js133211810318262619 0
@@ -712,8 +718,6 @@
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\chalk\source\templates.js133211810309654466 0
 62C:\Users\CIO\project\argen\fc-movie-app\node_modules\acorn\bin133211810309019731 1
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\yaml\browser\parse-cst.js133211810311788464 0
-91C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\conditional-keys.d.ts133211810310860756 0
-75C:\Users\CIO\project\argen\fc-movie-app\node_modules\yaml\browser\scalar.js133211810312364596 0
 161C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\bar\package.json133211810314737470 0
 80C:\Users\CIO\project\argen\fc-movie-app\node_modules\lightningcss\node\index.mjs133211810312598940 0
 68C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\watcher133211810314747229 1
@@ -890,7 +894,6 @@
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\mdn-data\css\properties.json133211810311593154 0
 71C:\Users\CIO\project\argen\fc-movie-app\node_modules\dom-serializer\lib133211810311349024 1
 79C:\Users\CIO\project\argen\fc-movie-app\node_modules\utility-types\package.json133211810310401824 0
-73C:\Users\CIO\project\argen\fc-movie-app\node_modules\source-map\README.md133211810309381043 0
 76C:\Users\CIO\project\argen\fc-movie-app\node_modules\utility-types\README.md133211810311192788 0
 87C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\json.js133211810317676748 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\utility-types\SECURITY.md133211810311261134 0
@@ -944,7 +947,6 @@
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\update-browserslist-db\index.js133211810309830230 0
 91C:\Users\CIO\project\argen\fc-movie-app\node_modules\type-fest\source\conditional-pick.d.ts133211810310938911 0
 89C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\dist\unpacker\agents.js133211810311241629 0
-112C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133211810313282476 0
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\update-browserslist-db\LICENSE133211810309049021 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\cleanupAttrs.js133211810310851007 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\nth-check\lib\compile.js.map133211810310977958 0
@@ -1093,9 +1095,6 @@
 75C:\Users\CIO\project\argen\fc-movie-app\node_modules\source-map\lib\util.js133211810311270906 0
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\ID.js133211810317247052 0
 67C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\LICENSE133211810309537275 0
-101C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\speech-recognition.js133211810319405149 0
-77C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-gyp-build\README.md133211810310509224 0
-67C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\main.js133211810312891887 0
 72C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\node_modules133211810305796625 1
 69C:\Users\CIO\project\argen\fc-movie-app\node_modules\terser\README.md133211810313751213 0
 94C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\css-regions.js133211810315840894 0
@@ -1222,11 +1221,11 @@
 73C:\Users\CIO\project\argen\fc-movie-app\node_modules\htmlnano\LICENSE.txt133211810314044139 0
 104C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\workers\test\integration\workerfarm\echo.js133211810318135685 0
 67C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\README.md133211810314073441 0
+91C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\addClassesToSVGElement.js133211810310743596 0
+70C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\util\when.js133211810314971833 0
 65C:\Users\CIO\project\argen\fc-movie-app\node_modules\mdn-data\api133211810311183018 1
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\ZM.js133211810320391382 0
 101C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag133211810311768955 0
-91C:\Users\CIO\project\argen\fc-movie-app\node_modules\svgo\plugins\addClassesToSVGElement.js133211810310743596 0
-70C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\util\when.js133211810314971833 0
 87C:\Users\CIO\project\argen\fc-movie-app\node_modules\msgpackr-extract\node_modules\.bin133211810377653124 1
 69C:\Users\CIO\project\argen\fc-movie-app\node_modules\error-ex\LICENSE133211810309547061 0
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-what\lib\es\parse.d.ts.map133211810311280684 0
@@ -1382,6 +1381,7 @@
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\source-map-support\register.js133211810309722836 0
 74C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\rollup.config.js133211810314971833 0
 103C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts133211810322197936 1
+73C:\Users\CIO\project\argen\fc-movie-app\node_modules\source-map\README.md133211810309381043 0
 72C:\Users\CIO\project\argen\fc-movie-app\node_modules\is-number\README.md133211810309771655 0
 99C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\bar.js133211810311378310 0
 79C:\Users\CIO\project\argen\fc-movie-app\node_modules\source-map\source-map.d.ts133211810311397863 0
@@ -1732,7 +1732,6 @@
 77C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\transformer-json133211810321553430 1
 90C:\Users\CIO\project\argen\fc-movie-app\node_modules\lightningcss-win32-x64-msvc\README.md133211810309527520 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-releases\data\processed133211810309390820 1
-108C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133211810315342932 0
 110C:\Users\CIO\project\argen\fc-movie-app\node_modules\node-releases\data\release-schedule\release-schedule.json133211810310084145 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\workers\src\index.js133211810318184536 0
 85C:\Users\CIO\project\argen\fc-movie-app\node_modules\cosmiconfig\dist\Explorer.js.map133211810311300180 0
@@ -2014,6 +2013,7 @@
 67C:\Users\CIO\project\argen\fc-movie-app\node_modules\dotenv\LICENSE133213525048535157 0
 106C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c133211810313751213 0
 107C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_remap.c133211810313790255 0
+108C:\Users\CIO\project\argen\fc-movie-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133211810315342932 0
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\VU.js133211810320117976 0
 94C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\customevent.js133211810316133861 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\lines-and-columns\LICENSE133211810309029513 0
@@ -2263,8 +2263,8 @@
 99C:\Users\CIO\project\argen\fc-movie-app\node_modules\@swc\helpers\src\_async_generator_delegate.mjs133211810314385930 0
 99C:\Users\CIO\project\argen\fc-movie-app\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133211810377662884 0
 69C:\Users\CIO\project\argen\fc-movie-app\node_modules\escalade\license133211810309009984 0
-74C:\Users\CIO\project\argen\fc-movie-app\node_modules\escalade\package.json133211810309898578 0
 106C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-position-x-y.js133211810313243426 0
+74C:\Users\CIO\project\argen\fc-movie-app\node_modules\escalade\package.json133211810309898578 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist\stack.d.ts133211810315381960 0
 94C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\source-map\dist\SourceMap.js.flow133211810318643500 0
 66C:\Users\CIO\project\argen\fc-movie-app\node_modules\escalade\sync133211810310675231 1
@@ -2499,7 +2499,7 @@
 84C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\regions\UA.js133211810319912909 0
 87C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-what\lib\es\stringify.d.ts.map133211810311388092 0
 91C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\packager-js\src\DevPackager.js133211810330093472 0
-62C:\Users\CIO\project\argen\fc-movie-app\dist\index.4d6bcbeb.js133213535314616510 0
+62C:\Users\CIO\project\argen\fc-movie-app\dist\index.4d6bcbeb.js133213644126200472 0
 81C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-what\lib\es\stringify.js133211810310665514 0
 77C:\Users\CIO\project\argen\fc-movie-app\node_modules\css-what\lib\es\types.js133211810310851007 0
 93C:\Users\CIO\project\argen\fc-movie-app\node_modules\@swc\helpers\src\_async_to_generator.mjs133211810314424979 0
@@ -2730,7 +2730,7 @@
 92C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\classlist.js133211810314464046 0
 80C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\events\lib\types.js133211810333364745 0
 71C:\Users\CIO\project\argen\fc-movie-app\node_modules\color-name\LICENSE133211810309576355 0
-66C:\Users\CIO\project\argen\fc-movie-app\dist\index.4d6bcbeb.js.map133213535314638135 0
+66C:\Users\CIO\project\argen\fc-movie-app\dist\index.4d6bcbeb.js.map133213644126236195 0
 94C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\typedarrays.js133211810319893383 0
 75C:\Users\CIO\project\argen\fc-movie-app\node_modules\color-convert\route.js133211810310382312 0
 93C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\runtime-browser-hmr\package.json133211810324462782 0
@@ -2937,6 +2937,10 @@
 104C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-attachment.js133211810313106725 0
 87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\utils\src\shared-buffer.js133211810332993678 0
 90C:\Users\CIO\project\argen\fc-movie-app\node_modules\@swc\helpers\src\_read_only_error.mjs133211810315264816 0
+87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\utils\test\urlJoin.test.js133211810333042496 0
+102C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-img-opts.js133211810313204383 0
+87C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\watcher\src\unix\legacy.cc133211810312384095 0
+112C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133211810313282476 0
 98C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\background-sync.js133211810313302019 0
 97C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\source-map\parcel_sourcemap_node\src133211810322373691 1
 80C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\logger\package.json133211810335141981 0
@@ -3245,7 +3249,7 @@
 96C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\passwordrules.js133211810318750910 0
 98C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\permissions-api.js133211810318780204 0
 101C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\permissions-policy.js133211810318799734 0
-67C:\Users\CIO\project\argen\fc-movie-app\dist\index.af20ad6e.css.map133213534926635765 0
+67C:\Users\CIO\project\argen\fc-movie-app\dist\index.af20ad6e.css.map133213643816028729 0
 86C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\optimizer-image\native.js133211810331724225 0
 90C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\pointer.js133211810318946172 0
 103C:\Users\CIO\project\argen\fc-movie-app\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133211810318975467 0
@@ -3562,7 +3566,6 @@
 102C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\core\test\fixtures\custom-format-mismatch133211810338647609 1
 74C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\optimizer-css133211810329131777 1
 79C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\optimizer-htmlnano133211810331353213 1
-67C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist133211810315381960 1
 75C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\optimizer-svgo133211810326324089 1
 76C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\package-manager133211810333169471 1
 73C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\packager-css133211810325855394 1
@@ -3986,7 +3989,6 @@
 134C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133211810311915373 0
 138C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\browser.js133211810312061894 0
 134C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\foo.js133211810312667312 0
-137C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\nested.js133211810313897688 0
 129C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\main.js133211810313712145 0
 136C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\src\test.js133211810314298072 0
 86C:\Users\CIO\project\argen\fc-movie-app\node_modules\@parcel\graph\lib\ContentGraph.js133211810317618130 0
@@ -4183,6 +4185,7 @@
 83C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lmdb\lmdb-win32-x64\README.md133211810309498218 0
 66C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\common133211810315391745 1
 62C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr133211810315274569 1
+67C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist133211810315381960 1
 75C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\package.json133211810315264816 0
 82C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist\constants.d.ts133211810315303871 0
 78C:\Users\CIO\project\argen\fc-movie-app\node_modules\@lezer\lr\dist\parse.d.ts133211810315362440 0
@@ -4322,6 +4325,6 @@
 64C:\Users\CIO\project\argen\fc-movie-app\node_modules\.bin\terser133211810377711762 0
 68C:\Users\CIO\project\argen\fc-movie-app\node_modules\.bin\terser.cmd133211810377721514 0
 60C:\Users\CIO\project\argen\fc-movie-app\img\clapperboard.png133212770378267019 0
-70C:\Users\CIO\project\argen\fc-movie-app\dist\clapperboard.46e5134a.png133213534926590398 0
-63C:\Users\CIO\project\argen\fc-movie-app\dist\index.af20ad6e.css133213534926590398 0
-55C:\Users\CIO\project\argen\fc-movie-app\dist\index.html133213534927227666 0
+70C:\Users\CIO\project\argen\fc-movie-app\dist\clapperboard.46e5134a.png133213643816000485 0
+63C:\Users\CIO\project\argen\fc-movie-app\dist\index.af20ad6e.css133213643815967339 0
+55C:\Users\CIO\project\argen\fc-movie-app\dist\index.html133213643816028729 0

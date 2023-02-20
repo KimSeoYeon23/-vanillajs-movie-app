@@ -143,3 +143,14 @@ body {
 .movies .movie .info .title {
   color: var(--color-white);
 }
+
+/* View More */
+.view-more {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+.view-more.hide {
+  display: none;
+}
