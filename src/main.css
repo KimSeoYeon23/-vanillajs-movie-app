@@ -116,6 +116,11 @@ body {
   border-radius: 4px;
   background-color: var(--color-area);
 }
+.movie-list .message {
+  color: var(--color-primary);
+  font-size: 20px;
+  text-align: center;
+}
 .movie-list .movies {
   display: flex;
   flex-wrap: wrap;
@@ -172,3 +177,4 @@ body {
 .view-more.hide {
   display: none;
 }
+
