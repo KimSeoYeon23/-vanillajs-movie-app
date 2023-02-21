@@ -1,4 +1,5 @@
 import { Component } from './../core/heropy';
+import aboutStore from '../store/about';
 
 export default class TheHeader extends Component {
   constructor() {
@@ -27,6 +28,7 @@ export default class TheHeader extends Component {
   }
 
   render() {
+    const { photo } = aboutStore.state;
     this.el.innerHTML = /* html */ `
       <a href='#/' class='logo'>
         <span>OMDbAPI</span>.COM  
@@ -50,7 +52,7 @@ export default class TheHeader extends Component {
         </ul>
       </nav>
       <a href='#/about' class='user'>
-        <img src="https://i.ibb.co/zxNZMvq/bondee-movie-watch.jpg" alt="User" />
+        <img src="${photo}" alt="User" />
       </a>
     `
   }
