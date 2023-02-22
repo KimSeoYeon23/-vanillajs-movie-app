@@ -3,3 +3,4 @@ dist
 .parce-cache
 .env
 .vscode
+.vercel

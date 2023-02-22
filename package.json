@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html"
+    "build": "parcel build ./index.html",
+    "vercel": "vercel dev"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,11 @@
     "os-browserify": "^0.3.0",
     "parcel": "^2.8.3",
     "path-browserify": "^1.0.1",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "vercel": "^28.16.4",
+    "dotenv": "^16.0.3"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "node-fetch": "^2.6.9"
   }
 }
