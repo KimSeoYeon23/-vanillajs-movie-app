@@ -60,7 +60,7 @@ __/package.json__
 
 ### Vercel 개발 서버 실행
 
-Vercel 구성 이후에는 `npm run dev`가 아닌 `npm run vercel`로 개발 서버를 실행해야 합니다!
+Vercel 구성 이후에는 `npm run dev`가 아닌 `npm run vercel`로 개발 서버를 실행해야 한다.
 
 ```bash
 $ npm run vercel
@@ -74,20 +74,19 @@ API Key 를 노출하지 않도록 서버리스 함수를 작성합니다.
 __/api/movie.js__
 
 ```js
-import fetch from 'node-fetch'
+import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 
-const { APIKEY } = process.env
+dotenv.config();
 
 export default async function handler(request, response) {
-  const { title, page, id } = JSON.parse(request.body)
-  const url = id
-    ? `https://www.omdbapi.com/?apikey=${APIKEY}&i=${id}&plot=full`
-    : `https://www.omdbapi.com/?apikey=${APIKEY}&s=${title}&page=${page}`
-  const res = await fetch(url)
-  const json = await res.json()
-  response
-    .status(200)
-    .json(json)
+  const { title, page, id } = JSON.parse(request.body);
+  const url =  id 
+        ? `https://www.omdbapi.com/?apikey=${process.env.OMDb_API_KEY}&i=${id}&plot=full` 
+        : `https://www.omdbapi.com/?apikey=${process.env.OMDb_API_KEY}&s=${title}&page=${page}`;
+  const res = await fetch(url);
+  const json = await res.json();
+  response.status(200).json(json)
 }
 ```
 
@@ -104,4 +103,4 @@ OMDb_API_KEY=<MY_OMDb_API_KEY>
 제품 서버(Vercel 서비스)에서 사용할 환경변수를 지정합니다.  
 Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션에서 다음과 같이 환경변수를 지정합니다.
 
-![Vercel .env Setting](./img/vercel_env_setting.png.JPG)
+![Vercel .env Setting](./img/vercel_env_setting.png)
