@@ -13,7 +13,7 @@ export class Component {
   public el
   public props
   public state
-  
+
   constructor(payload: ComponentPayload = {}) {
     const { 
       tagName = 'div',      // 최상위 요소의 태그 이름
@@ -32,7 +32,14 @@ export class Component {
 
 
 // Router
-function routeRender(routes) {
+interface Route {
+  path: string;
+  component: typeof Component
+}
+
+type Routes = Route[];
+
+function routeRender(routes: Routes) {
   // 접속할 때 해시 모드가 아니면(해시가 없으면) /#/로 리다이렉트!
   if(!location.hash) {
     // replaceState(상태정보, 페이지의 제목, 변경할 url주소)
@@ -48,26 +55,32 @@ function routeRender(routes) {
   // ['a=123', 'b=456']
   // a: '123', b: '456'
   // 1) 쿼리스트링을 객체로 변환해 히스토리의 상태에 저장!
+  interface Query {
+    [key: string]: string
+  }
+
   const query = queryString
     .split('&')
     .reduce((acc, cur) => {
       const [key, value] = cur.split('=');
       acc[key] = value;
       return acc;
-    }, {});
+    }, {} as Query);
   history.replaceState(query, '');    // (상태, 제목)
 
   // 2) 현재 라우트 정보를 찾아서 렌더링!
   // find 메소드로 url이 일치하는 route를 currentRoute에 할당한다.
-  const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash))
-  routerView.innerHTML = ''
-  routerView.append(new currentRoute.component().el);
+  const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash));
+  if(routerView) {    // routeView가 있으면
+    routerView.innerHTML = '';
+    currentRoute && routerView.append(new currentRoute.component().el);     // currentRoute가 있으면
+  }
 
   // 페이지가 바뀔 때 스크롤을 최상단으로 맞춰줄 수 있다.
   window.scrollTo(0, 0);
 }
 
-export function createRouter(routes) {
+export function createRouter(routes: Routes) {
   // 원하는(필요한) 곳에서 호출할 수 있도록 함수 데이터를 반환!
   return function () {
     // popstate는 주소가 바뀌는지 체크
