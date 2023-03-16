@@ -7,12 +7,12 @@ interface ComponentPayload {
   state?: {
     [key: string]: unknown
   };
-}
+};
 
 export class Component {
-  public el
-  public props
-  public state
+  public el;
+  public props;
+  public state;
 
   constructor(payload: ComponentPayload = {}) {
     const { 
@@ -34,8 +34,8 @@ export class Component {
 // Router
 interface Route {
   path: string;
-  component: typeof Component
-}
+  component: typeof Component;
+};
 
 type Routes = Route[];
 
@@ -94,11 +94,19 @@ export function createRouter(routes: Routes) {
 }
 
 // Store
-export class Store {
-  constructor(state) {
-    this.state = {};      // 상태(데이터)
-    this.observers = {};
+interface StoreObservers {
+  [key: string]: SubScribeCallback[];
+};
 
+interface SubScribeCallback {
+  (arg: unknown): void;
+};
+
+export class Store<S> {
+  public state = {} as S;
+  private observers = {} as StoreObservers;
+
+  constructor(state: S) {
     for(const key in state) {
       Object.defineProperty(this.state, key, {
         // get 함수는 객체 데이터에 지정하는 key 값을 사용할 떄 동작
@@ -117,7 +125,7 @@ export class Store {
   }
   // 데이터를 감시하는 메소드
   // 어떤 데이터의 key를 감시하고 감시를 하다가 데이터가 변경되면 cb 함수 실행
-  subscribe(key, cb) {
+  subscribe(key: string, cb: SubScribeCallback) {
     // observers에 실행할 콜백 함수를 저장
     // observers[key]가 배열 데이터인지 확인
     // { message: [cb1, cb2, cb3, ...] }
