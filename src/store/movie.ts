@@ -3,10 +3,10 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-interface SimpleMovie {
+export interface SimpleMovie {
   Title: string;
   Year: string;
-  imdbId: string;
+  imdbID: string;
   Type: string;
   Poster: string;
 }

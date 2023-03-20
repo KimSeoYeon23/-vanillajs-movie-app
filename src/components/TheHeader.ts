@@ -1,7 +1,19 @@
-import { Component } from './../core/heropy';
+import { Component } from '../core/heropy';
 import aboutStore from '../store/about';
 
+interface State {
+  [key: string]: unknown;
+  menus: {
+    name: string;
+    href: string;
+  }[];
+}
+
+
 export default class TheHeader extends Component {
+  public state!: State; 
+  // state는 초기화가 필요한데, 할당 단언을 통해서 초기화가 된 것처럼 판단을 할 수 있다.
+  
   constructor() {
     super({
       tagName: 'header',
