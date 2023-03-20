@@ -1,24 +1,45 @@
 // Component
+interface ComponentPayload {
+  tagName?: string;
+  props?: {
+    [key: string]: unknown
+  };
+  state?: {
+    [key: string]: unknown
+  };
+};
+
 export class Component {
-  constructor(payload = {}) {
+  public el;
+  public props;
+  public state;
+
+  constructor(payload: ComponentPayload = {}) {
     const { 
-      tagName = 'div', 
+      tagName = 'div',      // 최상위 요소의 태그 이름
       state = {},
       props = {}
     } = payload; 
-    this.el = document.createElement(tagName);
-    this.state = state;
-    this.props = props;
+    this.el = document.createElement(tagName);    // 컴포넌트의 최상위 요소
+    this.state = state;                           // 컴포넌트가 사용될 때 부모 컴포넌트에서 받는 데이터
+    this.props = props;                           // 컴포넌트 안에서 사용할 데이터
     this.render();
   }
-  render() {
+  render() {    // 컴포넌트를 렌더링하는 함수
     // ...
   }  
 }
 
 
 // Router
-function routeRender(routes) {
+interface Route {
+  path: string;
+  component: typeof Component;
+};
+
+type Routes = Route[];
+
+function routeRender(routes: Routes) {
   // 접속할 때 해시 모드가 아니면(해시가 없으면) /#/로 리다이렉트!
   if(!location.hash) {
     // replaceState(상태정보, 페이지의 제목, 변경할 url주소)
@@ -34,26 +55,32 @@ function routeRender(routes) {
   // ['a=123', 'b=456']
   // a: '123', b: '456'
   // 1) 쿼리스트링을 객체로 변환해 히스토리의 상태에 저장!
+  interface Query {
+    [key: string]: string
+  }
+
   const query = queryString
     .split('&')
     .reduce((acc, cur) => {
       const [key, value] = cur.split('=');
       acc[key] = value;
       return acc;
-    }, {});
+    }, {} as Query);
   history.replaceState(query, '');    // (상태, 제목)
 
   // 2) 현재 라우트 정보를 찾아서 렌더링!
   // find 메소드로 url이 일치하는 route를 currentRoute에 할당한다.
-  const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash))
-  routerView.innerHTML = ''
-  routerView.append(new currentRoute.component().el);
+  const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash));
+  if(routerView) {    // routeView가 있으면
+    routerView.innerHTML = '';
+    currentRoute && routerView.append(new currentRoute.component().el);     // currentRoute가 있으면
+  }
 
   // 페이지가 바뀔 때 스크롤을 최상단으로 맞춰줄 수 있다.
   window.scrollTo(0, 0);
 }
 
-export function createRouter(routes) {
+export function createRouter(routes: Routes) {
   // 원하는(필요한) 곳에서 호출할 수 있도록 함수 데이터를 반환!
   return function () {
     // popstate는 주소가 바뀌는지 체크
@@ -67,11 +94,19 @@ export function createRouter(routes) {
 }
 
 // Store
-export class Store {
-  constructor(state) {
-    this.state = {};      // 상태(데이터)
-    this.observers = {};
+interface StoreObservers {
+  [key: string]: SubScribeCallback[];
+};
 
+interface SubScribeCallback {
+  (arg: unknown): void;
+};
+
+export class Store<S> {
+  public state = {} as S;
+  private observers = {} as StoreObservers;
+
+  constructor(state: S) {
     for(const key in state) {
       Object.defineProperty(this.state, key, {
         // get 함수는 객체 데이터에 지정하는 key 값을 사용할 떄 동작
@@ -90,7 +125,7 @@ export class Store {
   }
   // 데이터를 감시하는 메소드
   // 어떤 데이터의 key를 감시하고 감시를 하다가 데이터가 변경되면 cb 함수 실행
-  subscribe(key, cb) {
+  subscribe(key: string, cb: SubScribeCallback) {
     // observers에 실행할 콜백 함수를 저장
     // observers[key]가 배열 데이터인지 확인
     // { message: [cb1, cb2, cb3, ...] }

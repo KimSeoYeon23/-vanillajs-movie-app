@@ -19,12 +19,14 @@
   },
   "homepage": "https://github.com/KimSeoYeon23/fc-movie-app#readme",
   "devDependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "dotenv": "^16.0.3",
     "os-browserify": "^0.3.0",
     "parcel": "^2.8.3",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
-    "vercel": "^28.16.4",
-    "dotenv": "^16.0.3"
+    "typescript": "^4.9.5",
+    "vercel": "^28.16.4"
   },
   "dependencies": {
     "node-fetch": "^2.6.9"
