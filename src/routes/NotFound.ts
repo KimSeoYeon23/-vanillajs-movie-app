@@ -11,7 +11,7 @@ export default class NotFound extends Component {
       <button>← Back</button>
     `
     const btnEl = this.el.querySelector('button');
-    btnEl.addEventListener('click', () => {
+    btnEl?.addEventListener('click', () => {
       history.back();
     })
   }
