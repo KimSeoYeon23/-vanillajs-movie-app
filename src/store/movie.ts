@@ -29,7 +29,7 @@ interface DetailedMovie {
   Ratings: {
     Source: string
     Value: string
-  }
+  }[]
   Metascore: string
   imdbRating: string
   imdbVotes: string
